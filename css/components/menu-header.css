@@ -1,0 +1,20 @@
+.menu-header {
+  position: fixed;
+  width: 100%;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  background-color: white;
+}
+
+.menu-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.menu-header__icons span {
+  margin-left: 20px;
+}
