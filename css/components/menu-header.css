@@ -1,13 +1,9 @@
 .menu-header {
-  position: fixed;
-  width: 100%;
-  top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px 20px;
-  background-color: white;
+  padding: var(--horizontal-space);
+  margin-bottom: 10px;
 }
 
 .menu-header__title {
@@ -17,4 +13,23 @@
 
 .menu-header__icons span {
   margin-left: 20px;
+}
+
+.menu-header__icons .dot {
+  position: absolute;
+  right: 14px;
+  top: 38px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.menu-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
 }

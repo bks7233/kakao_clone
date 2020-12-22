@@ -4,10 +4,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 3px 5px;
-  margin: 0px -5px;
+  padding: 3px 0px;
+  margin: 0px 0px;
   box-sizing: boder-box;
-  background-color: white;
+
+  /* background-color: white; */
 }
 .status-bar__column {
   width: 33%;
@@ -27,4 +28,11 @@
 
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 10px;
+  border-radius: 16px;
 }
